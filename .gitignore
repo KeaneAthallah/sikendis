@@ -6,3 +6,4 @@ Dockerfile
 docker-compose.yml
 nginx.conf
 entrypoint.sh
+index.php
