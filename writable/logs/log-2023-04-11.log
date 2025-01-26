@@ -1,0 +1,767 @@
+INFO - 2023-04-11 08:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:40 --> CSRF token verified.
+INFO - 2023-04-11 08:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:08:45 --> CSRF token verified.
+WARNING - 2023-04-11 08:08:45 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 08:08:45 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 08:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:15:58 --> CSRF token verified.
+WARNING - 2023-04-11 08:15:58 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('no_bap', 'No. BAP', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 08:15:58 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('tgl_bap', 'Tgl. BAP', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 08:15:58 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('pengguna_id', 'Pengguna', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 08:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 08:41:57 --> CSRF token verified.
+WARNING - 2023-04-11 08:41:57 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('no_bap', 'No. BAP', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 08:41:57 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('tgl_bap', 'Tgl. BAP', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 08:41:57 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('pengguna_id', 'Pengguna', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 09:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 09:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 09:49:27 --> CSRF token verified.
+WARNING - 2023-04-11 09:49:27 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 09:49:27 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 09:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 09:50:45 --> CSRF token verified.
+WARNING - 2023-04-11 09:50:45 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('no_permohonan', 'No. Permohonan', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:06:16 --> CSRF token verified.
+WARNING - 2023-04-11 10:06:16 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 10:06:16 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:07:05 --> CSRF token verified.
+WARNING - 2023-04-11 10:07:05 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH/Validation/Validation.php on line 299.
+ 1 SYSTEMPATH/Validation/Validation.php(299): trim(null)
+ 2 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('no_permohonan', 'No. Permohonan', null, [...], [...])
+ 3 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(90): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->saveData()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:07:06 --> CSRF token verified.
+WARNING - 2023-04-11 10:07:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 10:07:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:40 --> CSRF token verified.
+WARNING - 2023-04-11 10:09:40 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 10:09:40 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:53 --> CSRF token verified.
+WARNING - 2023-04-11 10:09:53 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 10:09:53 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 10:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 10:10:06 --> CSRF token verified.
+WARNING - 2023-04-11 10:10:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 10:10:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:43:43 --> CSRF token verified.
+WARNING - 2023-04-11 11:43:43 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:43:43 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:04 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:04 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:04 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:18 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:18 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:18 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:22 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:22 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:22 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:26 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:26 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:26 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:46 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:46 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:46 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PenggunaRutin/Models/PenggunaRutinModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PenggunaRutin/Controllers/PenggunaRutin.php(53): App\Modules\Data\PenggunaRutin\Models\PenggunaRutinModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PenggunaRutin\Controllers\PenggunaRutin))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:44:49 --> CSRF token verified.
+WARNING - 2023-04-11 11:44:49 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:44:49 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:10 --> CSRF token verified.
+INFO - 2023-04-11 11:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:11 --> CSRF token verified.
+WARNING - 2023-04-11 11:45:11 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:45:11 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:26 --> CSRF token verified.
+WARNING - 2023-04-11 11:45:26 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:45:26 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 11:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 11:46:20 --> CSRF token verified.
+WARNING - 2023-04-11 11:46:20 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 11:46:20 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 12:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 12:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 12:05:32 --> CSRF token verified.
+WARNING - 2023-04-11 12:05:32 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 12:05:32 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:09 --> CSRF token verified.
+INFO - 2023-04-11 17:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:15 --> CSRF token verified.
+WARNING - 2023-04-11 17:56:15 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:56:15 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:31 --> CSRF token verified.
+WARNING - 2023-04-11 17:56:31 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:56:31 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:35 --> CSRF token verified.
+WARNING - 2023-04-11 17:56:35 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:56:35 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:41 --> CSRF token verified.
+WARNING - 2023-04-11 17:56:41 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:56:41 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:54 --> CSRF token verified.
+INFO - 2023-04-11 17:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:56 --> CSRF token verified.
+WARNING - 2023-04-11 17:56:56 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:56:56 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:05 --> CSRF token verified.
+WARNING - 2023-04-11 17:57:05 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:57:05 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:57:13 --> CSRF token verified.
+WARNING - 2023-04-11 17:57:13 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 17:57:13 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:03:54 --> CSRF token verified.
+WARNING - 2023-04-11 18:03:54 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 18:03:54 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 18:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:05:07 --> CSRF token verified.
+WARNING - 2023-04-11 18:05:07 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 18:05:07 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 18:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 18:06:58 --> CSRF token verified.
+WARNING - 2023-04-11 18:06:58 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-04-11 18:06:58 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Data/PeminjamanOperasional/Models/PeminjamanOperasionalModel.php(70): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Data/PeminjamanOperasional/Controllers/PeminjamanOperasional.php(53): App\Modules\Data\PeminjamanOperasional\Models\PeminjamanOperasionalModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Data\PeminjamanOperasional\Controllers\PeminjamanOperasional))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

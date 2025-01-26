@@ -1,0 +1,793 @@
+INFO - 2023-05-10 00:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:44 --> CSRF token verified.
+INFO - 2023-05-10 00:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 00:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:47:37 --> CSRF token verified.
+INFO - 2023-05-10 13:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:03 --> CSRF token verified.
+INFO - 2023-05-10 14:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:08 --> CSRF token verified.
+INFO - 2023-05-10 14:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:07:18 --> CSRF token verified.
+INFO - 2023-05-10 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:35:22 --> CSRF token verified.
+WARNING - 2023-05-10 14:35:22 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 14:35:22 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 14:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 14:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:02:57 --> CSRF token verified.
+WARNING - 2023-05-10 15:02:57 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Monitoring/Display/Models/DisplayModel.php(45): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Monitoring/Display/Controllers/Display.php(45): App\Modules\Monitoring\Display\Models\DisplayModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\Display\Controllers\Display->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Monitoring\Display\Controllers\Display))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 15:02:57 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Monitoring/Display/Models/DisplayModel.php(45): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Monitoring/Display/Controllers/Display.php(45): App\Modules\Monitoring\Display\Models\DisplayModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\Display\Controllers\Display->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Monitoring\Display\Controllers\Display))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 15:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:03:00 --> CSRF token verified.
+WARNING - 2023-05-10 15:03:00 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Monitoring/Display/Models/DisplayModel.php(45): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Monitoring/Display/Controllers/Display.php(45): App\Modules\Monitoring\Display\Models\DisplayModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\Display\Controllers\Display->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Monitoring\Display\Controllers\Display))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 15:03:00 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Monitoring/Display/Models/DisplayModel.php(45): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Monitoring/Display/Controllers/Display.php(45): App\Modules\Monitoring\Display\Models\DisplayModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\Display\Controllers\Display->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Monitoring\Display\Controllers\Display))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 15:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:39:52 --> CSRF token verified.
+INFO - 2023-05-10 17:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:39:56 --> CSRF token verified.
+WARNING - 2023-05-10 17:39:56 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:39:56 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:40:06 --> CSRF token verified.
+WARNING - 2023-05-10 17:40:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:40:06 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:40:39 --> CSRF token verified.
+INFO - 2023-05-10 17:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:40:41 --> CSRF token verified.
+WARNING - 2023-05-10 17:40:41 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:40:41 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Unit/Models/UnitModel.php(61): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Unit/Controllers/Unit.php(49): App\Modules\Master\Unit\Models\UnitModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Unit\Controllers\Unit->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Unit\Controllers\Unit))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:43:05 --> CSRF token verified.
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:05 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:43:30 --> CSRF token verified.
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:43:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 17:44:14 --> CSRF token verified.
+WARNING - 2023-05-10 17:44:14 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 17:44:14 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 17:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:14 --> CSRF token verified.
+INFO - 2023-05-10 22:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:19 --> CSRF token verified.
+INFO - 2023-05-10 22:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:36 --> CSRF token verified.
+INFO - 2023-05-10 22:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 22:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:40:23 --> CSRF token verified.
+WARNING - 2023-05-10 23:40:23 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 23:40:23 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 23:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 23:41:57 --> CSRF token verified.
+WARNING - 2023-05-10 23:41:57 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 23:41:57 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Pengguna/Models/PenggunaModel.php(69): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Pengguna/Controllers/Pengguna.php(51): App\Modules\Master\Pengguna\Models\PenggunaModel->getDatatable()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Pengguna\Controllers\Pengguna->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Pengguna\Controllers\Pengguna))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

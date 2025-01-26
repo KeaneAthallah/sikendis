@@ -1,0 +1,471 @@
+INFO - 2025-01-25 14:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 14:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 14:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 14:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:21:04 --> CSRF token verified.
+INFO - 2025-01-25 15:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:24:30 --> CSRF token verified.
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="1" data-desc="Toyota / New Camry 3,5 Q A/T No. Polisi DN 1" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:30 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="6" data-desc="SUZUKI JB 420-GRAND VITARA JLX MT No. Polisi DN 1261 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-25 15:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 15:24:31 --> CSRF token verified.
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(401): Titasictech\Titasictables->getTotalResults()
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 492.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(492): strlen(null)
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(402): Titasictech\Titasictables->getTotalResults(true)
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI No. Polisi DN 1390 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../public/repository/kendaraan/photo-kendaraan-1684225927_216f058e23fa14e04513.png" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="5" data-desc="TOYOTA VOXI No. Polisi DN 1390 ST" title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../public/repository/kendaraan/photo-kendaraan-1684225927_216f058e23fa14e04513.png" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT No. Polisi DN 203 " title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../public/repository/kendaraan/photo-kendaraan-1684227087_a8fb1e722e078d397e97.png" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="4" data-desc="Toyota Camry 2.400 AT No. Polisi DN 203 " title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../public/repository/kendaraan/photo-kendaraan-1684227087_a8fb1e722e078d397e97.png" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$5', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T No. Polisi DN 97 " title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../$5" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$6', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T No. Polisi DN 97 " title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../$6" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-01-25 15:24:31 --> [DEPRECATED] str_ireplace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in APPPATH/ThirdParty/Titasictech/Titasictables.php on line 549.
+ 1 APPPATH/ThirdParty/Titasictech/Titasictables.php(549): str_ireplace('$7', null, '<td>
+									<div class="d-flex align-items-center">
+										<button type="button" id="btn-view" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-show"></i></span>
+											<span class="btn-inner--text">View</span>
+										</button>
+										<button type="button" id="btn-edit" class="btn btn-sm btn-light-secondary mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T">
+											<span class="btn-inner--icon"><i class="bx bx-edit"></i></span>
+											<span class="btn-inner--text">Edit</span>
+										</button>
+										<button type="button" id="btn-delete" class="btn btn-sm btn-icon btn-danger mb-0 py-1 px-2" data-mod="kendaraan" data-id="3" data-desc="Toyota / Fortuner 2.5 G M/T No. Polisi DN 97 " title="Hapus">
+											<span class="btn-inner--icon"><i class="bx bx-trash"></i></span>
+										</button>
+										<div class="dropdown">
+											<a href="javascript:;" class="btn dropdown-toggle hide-arrow text-body p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded"></i></a>
+											<div class="dropdown-menu dropdown-menu-end" style="">
+												<a href="../../" class="dropdown-item" target="_blank">Photo Kendaraan</a>
+												<a href="../../" class="dropdown-item" target="_blank">Photo STNK</a>
+												<a href="../../$7" class="dropdown-item" target="_blank">Photo BPKB</a>
+											</div>
+										</div>
+									</div>
+								</td>')
+ 2 APPPATH/ThirdParty/Titasictech/Titasictables.php(411): Titasictech\Titasictables->execReplace([...], [...])
+ 3 APPPATH/ThirdParty/Titasictech/Titasictables.php(305): Titasictech\Titasictables->produceOutput('json', 'utf-8')
+ 4 APPPATH/Modules/Master/Kendaraan/Models/KendaraanModel.php(71): Titasictech\Titasictables->generate()
+ 5 APPPATH/Modules/Master/Kendaraan/Controllers/Kendaraan.php(72): App\Modules\Master\Kendaraan\Models\KendaraanModel->getDatatable([...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Master\Kendaraan\Controllers\Kendaraan->getDatatable()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Master\Kendaraan\Controllers\Kendaraan))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

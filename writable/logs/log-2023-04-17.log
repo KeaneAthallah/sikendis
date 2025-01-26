@@ -1,0 +1,239 @@
+INFO - 2023-04-17 14:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:50 --> CSRF token verified.
+INFO - 2023-04-17 14:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-17 14:41:53 --> CSRF token verified.
+CRITICAL - 2023-04-17 14:41:53 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:44:45 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:40 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:41 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:57 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:58 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:59 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:59 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:59 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:46:59 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:27 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:28 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:28 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:28 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:29 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:29 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:47:29 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:09 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:10 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:10 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:10 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:10 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:11 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:11 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:11 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 14:49:11 --> Trying to access array offset on value of type null
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 56.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 15:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 15:01:34 --> Undefined property: App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan::$KendaraanModel
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 57.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 15:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 15:02:08 --> Undefined property: App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan::$KendaraanModel
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 57.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-17 15:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-17 15:02:09 --> Undefined property: App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan::$KendaraanModel
+in APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php on line 57.
+ 1 APPPATH/Modules/Monitoring/MonitoringKendaraan/Controllers/MonitoringKendaraan.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Monitoring\MonitoringKendaraan\Controllers\MonitoringKendaraan->getDatatable()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1235 @@
+INFO - 2023-03-05 06:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 06:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 06:28:25 --> CSRF token verified.
+INFO - 2023-03-05 06:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 06:28:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 06:28:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 06:28:26 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 06:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 06:47:35 --> CSRF token verified.
+INFO - 2023-03-05 06:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 06:47:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 06:47:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 06:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:00:48 --> CSRF token verified.
+INFO - 2023-03-05 07:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 07:00:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 07:00:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 07:00:54 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 07:00:55 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 07:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:01:43 --> CSRF token verified.
+INFO - 2023-03-05 07:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 07:01:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 07:01:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 07:01:55 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 07:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:44:29 --> CSRF token verified.
+INFO - 2023-03-05 07:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 07:44:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 07:44:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 07:44:40 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 07:44:51 --> CSRF token verified.
+INFO - 2023-03-05 07:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 07:44:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 07:44:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:23:26 --> CSRF token verified.
+INFO - 2023-03-05 08:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:23:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:23:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 08:23:35 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:24:39 --> CSRF token verified.
+INFO - 2023-03-05 08:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:24:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:24:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 08:24:51 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:25:04 --> CSRF token verified.
+INFO - 2023-03-05 08:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:25:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:25:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:25:37 --> CSRF token verified.
+INFO - 2023-03-05 08:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:25:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:25:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:25:46 --> CSRF token verified.
+INFO - 2023-03-05 08:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:25:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:25:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:26:04 --> CSRF token verified.
+INFO - 2023-03-05 08:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:26:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:26:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 08:26:12 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:26:23 --> CSRF token verified.
+INFO - 2023-03-05 08:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:26:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:26:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:26:58 --> CSRF token verified.
+INFO - 2023-03-05 08:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:26:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:26:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:29:17 --> CSRF token verified.
+INFO - 2023-03-05 08:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:29:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:29:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:35:36 --> CSRF token verified.
+INFO - 2023-03-05 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:35:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:35:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:37:10 --> CSRF token verified.
+INFO - 2023-03-05 08:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:37:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:37:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:38:48 --> CSRF token verified.
+INFO - 2023-03-05 08:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:38:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:38:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:39:46 --> CSRF token verified.
+INFO - 2023-03-05 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:39:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:39:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 08:39:51 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:39:56 --> CSRF token verified.
+INFO - 2023-03-05 08:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:39:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(174): mysqli->real_connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-05 08:39:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:44:22 --> CSRF token verified.
+INFO - 2023-03-05 08:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:44:22 --> mysqli_sql_exception: Table 'db_sikendis.share_service' doesn't exist in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-05 08:44:22 --> Table 'db_sikendis.share_service' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:46:22 --> CSRF token verified.
+INFO - 2023-03-05 08:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:46:22 --> mysqli_sql_exception: Table 'db_sikendis.share_service' doesn't exist in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-05 08:46:22 --> Table 'db_sikendis.share_service' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Auth/Login/Models/LoginModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:52:28 --> CSRF token verified.
+INFO - 2023-03-05 08:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:52:28 --> mysqli_sql_exception: Table 'db_sikendis.level' doesn't exist in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-05 08:52:28 --> Table 'db_sikendis.level' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Auth/Login/Models/LoginModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:53:58 --> CSRF token verified.
+INFO - 2023-03-05 08:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-05 08:53:58 --> mysqli_sql_exception: Unknown column 'a.full_name' in 'field list' in /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Models/LoginModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/app/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+#6 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+#7 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/lampstack-8.1.2-0/apache2/htdocs/job/palu/sikendis/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-05 08:53:58 --> Unknown column 'a.full_name' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Auth/Login/Models/LoginModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Auth/Login/Controllers/Login.php(66): App\Modules\Auth\Login\Models\LoginModel->doLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 08:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 08:55:15 --> CSRF token verified.
+INFO - 2023-03-05 08:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:18:33 --> CSRF token verified.
+INFO - 2023-03-05 09:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:33 --> CSRF token verified.
+INFO - 2023-03-05 09:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:39 --> CSRF token verified.
+INFO - 2023-03-05 09:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:39 --> CSRF token verified.
+INFO - 2023-03-05 09:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:40 --> CSRF token verified.
+INFO - 2023-03-05 09:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:22:59 --> CSRF token verified.
+INFO - 2023-03-05 09:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:02 --> CSRF token verified.
+INFO - 2023-03-05 09:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:38 --> CSRF token verified.
+INFO - 2023-03-05 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:53 --> CSRF token verified.
+INFO - 2023-03-05 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:55 --> CSRF token verified.
+INFO - 2023-03-05 09:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:56 --> CSRF token verified.
+INFO - 2023-03-05 09:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:23:57 --> CSRF token verified.
+INFO - 2023-03-05 09:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:51 --> CSRF token verified.
+INFO - 2023-03-05 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:52 --> CSRF token verified.
+INFO - 2023-03-05 09:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:53 --> CSRF token verified.
+INFO - 2023-03-05 09:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:56 --> CSRF token verified.
+INFO - 2023-03-05 09:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:57 --> CSRF token verified.
+INFO - 2023-03-05 09:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:58 --> CSRF token verified.
+INFO - 2023-03-05 09:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:24:59 --> CSRF token verified.
+INFO - 2023-03-05 09:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:25:00 --> CSRF token verified.
+INFO - 2023-03-05 09:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:25:36 --> CSRF token verified.
+INFO - 2023-03-05 09:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:25:37 --> CSRF token verified.
+INFO - 2023-03-05 09:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:25:49 --> CSRF token verified.
+INFO - 2023-03-05 09:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:25:52 --> CSRF token verified.
+INFO - 2023-03-05 09:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:26:10 --> CSRF token verified.
+INFO - 2023-03-05 09:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:26:23 --> CSRF token verified.
+INFO - 2023-03-05 09:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:26:30 --> CSRF token verified.
+INFO - 2023-03-05 09:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:26:49 --> CSRF token verified.
+INFO - 2023-03-05 09:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:23 --> CSRF token verified.
+INFO - 2023-03-05 09:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:43 --> CSRF token verified.
+INFO - 2023-03-05 09:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:45 --> CSRF token verified.
+INFO - 2023-03-05 09:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:46 --> CSRF token verified.
+INFO - 2023-03-05 09:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:47 --> CSRF token verified.
+INFO - 2023-03-05 09:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:48 --> CSRF token verified.
+INFO - 2023-03-05 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:49 --> CSRF token verified.
+INFO - 2023-03-05 09:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:51 --> CSRF token verified.
+INFO - 2023-03-05 09:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:52 --> CSRF token verified.
+INFO - 2023-03-05 09:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:54 --> CSRF token verified.
+INFO - 2023-03-05 09:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:28:56 --> CSRF token verified.
+INFO - 2023-03-05 09:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:29:02 --> CSRF token verified.
+INFO - 2023-03-05 09:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:29:09 --> CSRF token verified.
+INFO - 2023-03-05 09:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:29:15 --> CSRF token verified.
+INFO - 2023-03-05 09:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:37:26 --> CSRF token verified.
+INFO - 2023-03-05 09:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:37:33 --> CSRF token verified.
+INFO - 2023-03-05 09:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:37:48 --> CSRF token verified.
+INFO - 2023-03-05 09:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:37:54 --> CSRF token verified.
+INFO - 2023-03-05 09:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:02 --> CSRF token verified.
+INFO - 2023-03-05 09:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:08 --> CSRF token verified.
+INFO - 2023-03-05 09:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:22 --> CSRF token verified.
+INFO - 2023-03-05 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:38 --> CSRF token verified.
+INFO - 2023-03-05 09:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:38:47 --> CSRF token verified.
+INFO - 2023-03-05 09:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 09:38:47 --> Undefined array key "level_desc"
+in APPPATH/Modules/Auth/Login/Controllers/Login.php on line 102.
+ 1 APPPATH/Modules/Auth/Login/Controllers/Login.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 09:38:55 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 09:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:39:12 --> CSRF token verified.
+INFO - 2023-03-05 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 09:39:12 --> Undefined array key "level_desc"
+in APPPATH/Modules/Auth/Login/Controllers/Login.php on line 102.
+ 1 APPPATH/Modules/Auth/Login/Controllers/Login.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 09:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:22 --> CSRF token verified.
+INFO - 2023-03-05 09:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:30 --> CSRF token verified.
+INFO - 2023-03-05 09:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 09:41:30 --> Undefined array key "unit_ket"
+in APPPATH/Modules/Auth/Login/Controllers/Login.php on line 104.
+ 1 APPPATH/Modules/Auth/Login/Controllers/Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Modules\Auth\Login\Controllers\Login->doLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 09:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:43:44 --> CSRF token verified.
+INFO - 2023-03-05 09:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:10 --> CSRF token verified.
+INFO - 2023-03-05 09:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:16 --> CSRF token verified.
+INFO - 2023-03-05 09:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:35 --> CSRF token verified.
+INFO - 2023-03-05 09:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:42 --> CSRF token verified.
+INFO - 2023-03-05 09:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:44:48 --> CSRF token verified.
+INFO - 2023-03-05 09:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:46:56 --> CSRF token verified.
+INFO - 2023-03-05 09:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:02 --> CSRF token verified.
+INFO - 2023-03-05 09:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:20 --> CSRF token verified.
+INFO - 2023-03-05 09:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:35 --> CSRF token verified.
+INFO - 2023-03-05 09:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:42 --> CSRF token verified.
+INFO - 2023-03-05 09:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:48 --> CSRF token verified.
+INFO - 2023-03-05 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:54 --> CSRF token verified.
+INFO - 2023-03-05 09:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:47:55 --> CSRF token verified.
+INFO - 2023-03-05 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:48:00 --> CSRF token verified.
+INFO - 2023-03-05 09:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:48:23 --> CSRF token verified.
+INFO - 2023-03-05 09:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:53:06 --> CSRF token verified.
+INFO - 2023-03-05 09:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:53:40 --> CSRF token verified.
+INFO - 2023-03-05 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:53:46 --> CSRF token verified.
+INFO - 2023-03-05 09:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:53:58 --> CSRF token verified.
+INFO - 2023-03-05 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:54:16 --> CSRF token verified.
+INFO - 2023-03-05 09:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:54:33 --> CSRF token verified.
+INFO - 2023-03-05 09:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:54:38 --> CSRF token verified.
+INFO - 2023-03-05 09:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:06:30 --> CSRF token verified.
+INFO - 2023-03-05 10:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:21:19 --> CSRF token verified.
+INFO - 2023-03-05 10:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 10:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
