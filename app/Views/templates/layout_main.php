@@ -41,35 +41,35 @@ $rand = rand();
       echo csrf_meta().PHP_EOL;
     ?>
     <title><?= $title ?> | SIKENDIS</title>
-    <link rel="icon" type="image/x-icon" href="<?= site_url('assets/img/favicon/favicon.ico') ?>" />
+    <link rel="icon" type="image/x-icon" href="<?= site_url('public/assets/img/favicon/favicon.ico') ?>" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="<?= site_url('assets/vendor/fonts/boxicons.css') ?>" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/vendor/fonts/boxicons.css') ?>" />
     <!-- Core CSS -->
-    <link rel="stylesheet" href="<?= site_url('assets/vendor/css/core.css') ?>" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="<?= site_url('assets/vendor/css/theme-default.css') ?>" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="<?= site_url('assets/css/demo.css') ?>" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/vendor/css/core.css') ?>" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/vendor/css/theme-default.css') ?>" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/css/demo.css') ?>" />
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="<?= site_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') ?>" />
-    <link rel="stylesheet" href="<?= site_url('assets/vendor/libs/apex-charts/apex-charts.css') ?>" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') ?>" />
+    <link rel="stylesheet" href="<?= site_url('public/assets/vendor/libs/apex-charts/apex-charts.css') ?>" />
     <!-- Plugins -->
-    <link href="<?= site_url('assets/plugins/DataTables/DataTables-1.13.4/css/dataTables.bootstrap5.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/DataTables/Select-1.6.2/css/select.bootstrap5.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/DataTables/Buttons-2.3.6/css/buttons.bootstrap5.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/DataTables/Responsive-2.4.1/css/responsive.bootstrap5.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/sweetalert2/sweetalert2.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/select2/select2.min.css') ?>" rel="stylesheet" />
-    <link href="<?= site_url('assets/plugins/choices.js/choices.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/DataTables/DataTables-1.13.4/css/dataTables.bootstrap5.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/DataTables/Select-1.6.2/css/select.bootstrap5.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/DataTables/Buttons-2.3.6/css/buttons.bootstrap5.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/DataTables/Responsive-2.4.1/css/responsive.bootstrap5.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/sweetalert2/sweetalert2.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/select2/select2.min.css') ?>" rel="stylesheet" />
+    <link href="<?= site_url('public/assets/plugins/choices.js/choices.min.css') ?>" rel="stylesheet" />
     <!-- My Style -->
-    <link rel="stylesheet" href="<?= site_url('assets/css/mystyle.css?v='.$rand) ?>">
+    <link rel="stylesheet" href="<?= site_url('public/assets/css/mystyle.css?v='.$rand) ?>">
     <!-- Helpers -->
-    <script src="<?= site_url('assets/vendor/js/helpers.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/js/helpers.js') ?>"></script>
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="<?= site_url('assets/js/config.js') ?>"></script>
+    <script src="<?= site_url('public/assets/js/config.js') ?>"></script>
     <!-- Global variable -->
     <script> var _HOST = '<?= site_url() ?>'; </script>
   </head>
@@ -184,7 +184,7 @@ $rand = rand();
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="<?= site_url('assets/img/avatars/user_800.jpg') ?>" alt class="w-px-40 h-auto rounded-circle" />
+                      <img src="<?= site_url('public/assets/img/avatars/user_800.jpg') ?>" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -193,7 +193,7 @@ $rand = rand();
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="<?= site_url('assets/img/avatars/user_800.jpg') ?>" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="<?= site_url('public/assets/img/avatars/user_800.jpg') ?>" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -283,36 +283,36 @@ $rand = rand();
     <!-- Toast -->
     <?= view('contents/toast') ?>
     <!-- Core JS -->
-    <script src="<?= site_url('assets/vendor/libs/jquery/jquery.js') ?>"></script>
-    <script src="<?= site_url('assets/vendor/libs/popper/popper.js') ?>"></script>
-    <script src="<?= site_url('assets/vendor/js/bootstrap.js') ?>"></script>
-    <script src="<?= site_url('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') ?>"></script>
-    <script src="<?= site_url('assets/vendor/js/menu.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/libs/jquery/jquery.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/libs/popper/popper.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/js/bootstrap.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/js/menu.js') ?>"></script>
     <!-- Vendors JS -->
-    <script src="<?= site_url('assets/vendor/libs/apex-charts/apexcharts.js') ?>"></script>
+    <script src="<?= site_url('public/assets/vendor/libs/apex-charts/apexcharts.js') ?>"></script>
     <!-- Main JS -->
-    <script src="<?= site_url('assets/js/main.js') ?>"></script>
+    <script src="<?= site_url('public/assets/js/main.js') ?>"></script>
     <!-- Page JS -->
-    <script src="<?= site_url('assets/js/dashboards-analytics.js') ?>"></script>
+    <script src="<?= site_url('public/assets/js/dashboards-analytics.js') ?>"></script>
     <!-- Plugins -->
-    <script src="<?= site_url('assets/plugins/DataTables/DataTables-1.13.4/js/jquery.dataTables.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/DataTables-1.13.4/js/dataTables.bootstrap5.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Buttons-2.3.6/js/dataTables.buttons.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Buttons-2.3.6/js/buttons.bootstrap5.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Buttons-2.3.6/js/buttons.html5.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Buttons-2.3.6/js/buttons.print.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/pdfmake-0.1.36/pdfmake.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/pdfmake-0.1.36/vfs_fonts.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/JSZip-2.5.0/jszip.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Select-1.6.2/js/dataTables.select.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Select-1.6.2/js/select.bootstrap5.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Responsive-2.4.1/js/dataTables.responsive.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/DataTables/Responsive-2.4.1/js/responsive.bootstrap5.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/sweetalert2/sweetalert2.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/select2/select2.min.js') ?>"></script>
-    <script src="<?= site_url('assets/plugins/choices.js/choices.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/DataTables-1.13.4/js/jquery.dataTables.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/DataTables-1.13.4/js/dataTables.bootstrap5.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Buttons-2.3.6/js/dataTables.buttons.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Buttons-2.3.6/js/buttons.bootstrap5.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Buttons-2.3.6/js/buttons.html5.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Buttons-2.3.6/js/buttons.print.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/pdfmake-0.1.36/pdfmake.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/pdfmake-0.1.36/vfs_fonts.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/JSZip-2.5.0/jszip.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Select-1.6.2/js/dataTables.select.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Select-1.6.2/js/select.bootstrap5.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Responsive-2.4.1/js/dataTables.responsive.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/DataTables/Responsive-2.4.1/js/responsive.bootstrap5.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/sweetalert2/sweetalert2.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/select2/select2.min.js') ?>"></script>
+    <script src="<?= site_url('public/assets/plugins/choices.js/choices.min.js') ?>"></script>
     <!-- My Script -->
-    <script src="<?= site_url('assets/js/myscript.js?v='.$rand) ?>"></script>
+    <script src="<?= site_url('public/assets/js/myscript.js?v='.$rand) ?>"></script>
     <?php
       # untuk script page content
       if (isset($content_script)) echo $content_script;
